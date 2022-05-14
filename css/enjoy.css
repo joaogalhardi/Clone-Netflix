@@ -1,0 +1,38 @@
+.enjoy-bg{
+  background-color: #000000;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #ffffff;
+  border-bottom: 8px solid #222;
+}
+
+.enjoy{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+  gap: 0px;
+}
+
+.enjoy-text{
+  display: grid;
+  align-content: center;
+  gap: 10px;
+}
+
+.enjoy-text h1{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px; 
+}
+
+.enjoy-text p{
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 447px;
+}
+
+.enjoy-frame img{
+  width: 458px;
+}
+
