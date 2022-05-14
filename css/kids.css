@@ -1,0 +1,37 @@
+.kids-bg{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  border-bottom: 8px solid #222;
+}
+
+.kids{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+  gap: 40px;
+}
+
+.kids img{
+  width: 400px;
+}
+
+.kids-text{
+  display: grid;
+  align-content: center;
+  gap: 10px;
+}
+
+.kids-text h1{
+  font-size: 40px;
+  max-width: 21ch;
+  font-weight: 700;
+}
+
+.kids-text p{
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 40ch;
+}
