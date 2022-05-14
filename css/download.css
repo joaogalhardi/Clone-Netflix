@@ -1,0 +1,38 @@
+.download-bg{
+  background-color: #000000;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #ffffff;
+  border-bottom: 8px solid #222;
+}
+
+.download{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+  gap: 40px;
+}
+
+.download img{
+  width: 280px;
+  align-self: start;
+  margin-right: 50px;
+}
+
+.download-text{
+  display: grid;
+  align-content: center;
+  gap: 10px;
+}
+
+.download-text h1{
+  font-size: 40px;
+  max-width: 21ch;
+  font-weight: 700;
+}
+
+.download-text p{
+  font-size: 20px;
+  font-weight: 400;
+}
