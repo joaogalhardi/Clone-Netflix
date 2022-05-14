@@ -1,0 +1,95 @@
+.footer-bg{
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer-bg h3{
+  padding-left: 70px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.footer-bg h3>a{
+  color: #757575; 
+}
+
+.footer-bg h3>a:hover{
+  text-decoration: underline;
+}
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 50px;
+}
+
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 15px;
+}
+
+.footer-list:first-child{
+  padding-left: 70px;
+}
+
+.footer-list li>a{
+  color: #757575;
+  font-size: 11px;
+}
+
+.footer-list li>a:hover{
+  text-decoration: underline;
+}
+
+.footer-language{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-direction: column;
+  align-items: start;
+  gap: 35px;
+  padding-top: 20px;
+  padding-left: 70px;
+}
+
+.footer-language span{
+  color: #757575;
+  font-size: 11px;
+}
+
+.footer-language label{
+  position: relative;
+}
+
+.footer-language label::before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 47px;
+  left: 8px;
+  background-image: url("../img/icon/globe-gray.svg");
+  width: 14px;
+  height: 14px;
+}
+
+.footer-language select{
+  background-color:#000000;
+  color: #757575;
+  border: 1px solid #757575;
+  border-radius: 2px;
+  padding: 10px 10px 10px 25px ;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-language select > option{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 12px;
+}
