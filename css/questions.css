@@ -1,0 +1,126 @@
+.questions-bg{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background: #000000;
+  color: #ffffff;
+  border-bottom: 8px solid #222;
+}
+
+.questions h1{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.questions dl{
+  display: grid;
+  grid-template-columns: minmax(320px,1fr);
+  align-items: center;
+  justify-items: center;
+  padding-top: 52px;
+  gap: 8px;
+}
+
+.questions-list{
+  width: 65%;
+}
+
+.questions-list dt{
+ background-color: #2F2F2F;
+ padding: 20px;
+ border-bottom: 2px solid #000000;
+}
+
+
+.questions-list button::after{      
+  content: "";
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/icon/plus.svg");
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.questions-list button[aria-expanded="false"]::after{
+  transform: rotate(45deg);
+}
+
+.questions-list button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: none;
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  background: none;
+  width: 100%;
+  color: #ffffff; 
+}
+
+.questions-list dd.active{
+  display: none;
+}
+
+.questions-list dd{
+  padding-top: 10px;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 400;
+  background-color: #2F2F2F; 
+  color: #ffffff;
+}
+
+.questions h3{
+  padding-top: 60px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.questions-input{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  max-width: 100%;
+}
+
+.questions-input input{
+  padding: 5px 5px;
+  width: 30%;
+  height: 55px;
+}
+
+.questions-input input::placeholder{
+  font-size: 12px;
+  font-weight: 600;
+  color: #8c8c8c;
+}
+
+.questions-input a{
+  display: flex;
+  height: 55px;
+  padding: 0px 20px;
+  font-size: 20px;
+  align-items: center;
+  color: white;
+  background-color: #e50914;
+}
+
+
+.questions-input a::after{
+  content: '';
+  display: flex;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/icon/arrow-right.svg');
+}
+
+.questions-input a:hover{
+  background-color: #f40612;
+}
