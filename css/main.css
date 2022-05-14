@@ -1,0 +1,160 @@
+
+.gradient{
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(to top,
+  rgba(0,0,0,.8) 0,
+  rgba(0,0,0,0) 60%,
+  rgba(0,0,0,.8) 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.main-bg{
+  background: url('../img/bg.jpg') no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  position: relative;
+  border-bottom: 8px solid #222;
+}
+
+.main{
+  position: relative;
+  z-index: 1;
+  padding-top: 28px;
+}
+
+.main-nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav img{
+  margin-left: 56px;
+  width: 112px;
+}
+
+.main-nav div{
+  display: flex;
+  gap: 12px;
+}
+
+.main-nav label{
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.main-nav label::before{
+  content: "";
+  display: flex;
+  position: absolute;
+  left: 15px;
+  background-image: url("../img/icon/globe.svg");
+  width: 14px;
+  height: 14px;
+}
+
+.main-nav select{
+  background-color:#000000;
+  color: #ffffff;
+  border: 1px solid #aaaaaa;
+  border-radius: 2px;
+  padding: 4px 2px 4px 16px ;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.main-nav select > option{
+  background-color: gray;
+}
+
+.main-nav a{
+  background-color:#e50914;
+  color: white;
+  padding: 4px 14px;
+  font-size: 12px;
+  border-radius: 3px;
+  margin-right: 56px;
+  align-self: center;
+}
+
+
+.main-text{
+  display: grid;
+  grid-template-columns: minmax(450px,1fr);
+  justify-items: center;
+  align-content: center;
+  gap: 16px;
+  margin-top: 92px;
+}
+
+.main-text h1{
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 700;
+  text-align: center;
+  max-width: 28ch;
+}
+
+.main-text h3{
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main-text p{
+  margin-top: 14px;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main-input{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  max-width: 100%;
+}
+
+.main-input input{
+  padding: 5px 5px;
+  width: 30%;
+  height: 55px;
+}
+
+.main-input input::placeholder{
+  font-size: 12px;
+  font-weight: 600;
+  color: #8c8c8c;
+}
+
+
+.main-input a{
+  display: flex;
+  height: 55px;
+  padding: 0px 20px;
+  font-size: 20px;
+  align-items: center;
+  color: white;
+  background-color: #e50914;
+}
+
+.main-input a::after{
+  content: '';
+  display: flex;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/icon/arrow-right.svg');
+}
+
+.main-input a:hover{
+  background-color: #f40612;
+}
