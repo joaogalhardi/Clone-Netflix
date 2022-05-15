@@ -97,7 +97,7 @@
 }
 
 .questions-input input::placeholder{
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #8c8c8c;
 }

@@ -23,7 +23,7 @@
 .download-text{
   display: grid;
   align-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .download-text h1{
@@ -35,4 +35,5 @@
 .download-text p{
   font-size: 20px;
   font-weight: 400;
+  max-width: 36ch;
 }
