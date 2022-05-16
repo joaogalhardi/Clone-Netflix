@@ -146,17 +146,19 @@
 }
 
 
-.main-input a{
+.main-input button{
   display: flex;
   height: 55px;
   padding: 0px 20px;
   font-size: 20px;
+  border: none;
   align-items: center;
   color: white;
   background-color: #e50914;
+  cursor: pointer;
 }
 
-.main-input a::after{
+.main-input button::after{
   content: '';
   display: flex;
   width: 24px;
@@ -164,6 +166,6 @@
   background-image: url('../img/icon/arrow-right.svg');
 }
 
-.main-input a:hover{
+.main-input button:hover{
   background-color: #f40612;
 }
