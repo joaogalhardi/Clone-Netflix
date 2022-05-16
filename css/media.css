@@ -365,19 +365,18 @@
 }
 }
 
-@media screen and (max-width:400){
+@media screen and (max-width:400px){
+  .kids img{
+    width: 350px;
+    overflow: hidden;
+  }
+
   .kids-text h1{
     font-size: 34px;
   }
 
   .kids-text p{
     line-height: 1.25;
-  }
-}
-
-@media screen and (max-width:350px){
-  .kids img{
-    width: 350px;
   }
 }
 
@@ -473,7 +472,6 @@
 }
 
 @media screen and (max-width:500px){
-  
 .questions-input input{
   padding: 5px 5px;
   width: 90%;
