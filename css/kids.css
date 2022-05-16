@@ -12,6 +12,7 @@
   flex: 1;
   justify-content: center;
   gap: 40px;
+  overflow: hidden;
 }
 
 .kids img{
