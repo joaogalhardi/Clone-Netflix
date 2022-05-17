@@ -1,14 +1,14 @@
 <h1 align="center">
 <br>
-  <img src="./images/luggage-icon.svg" alt="Luggage" >
+  <img src="./img/netflix-logo.svg" alt="Netflix" >
 <br>
 </h1>
 
-<h2 align="center"><strong>Landing Page builded with the goal of reinforce acknowledge in HTML, CSS and Javascript and create a Luggage site.</strong></h2>
+<h2 align="center"><strong>Landing Page builded with the goal of reinforce acknowledge in HTML, CSS and Javascript and create the home page of Netflix.</strong></h2>
 
 <div align="center" >
-  <img src="./videos/Luggage.gif" alt="Luggage">
-  <img src="./videos/Luggage-mobile.gif" alt="Luggage-mobile"  height="425">
+  <img src="./videos/netflix.gif" alt="netflix">
+  <img src="./videos/netflix-mobile.gif" alt="netflix-mobile"  height="425">
 </div>
 
 ---
