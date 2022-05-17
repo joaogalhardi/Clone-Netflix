@@ -15,7 +15,7 @@
 
 # See the project
 
-- <strong>Click here:</strong> https://joaogalhardi.github.io/Luggage/
+- <strong>Click here:</strong> https://joaogalhardi.github.io/Clone-Netflix/
 
 
 ---
