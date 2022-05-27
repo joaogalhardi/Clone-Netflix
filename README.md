@@ -17,7 +17,6 @@
 
 - <strong>Click here:</strong> https://joaogalhardi.github.io/Clone-Netflix/
 
-
 ---
 
 
